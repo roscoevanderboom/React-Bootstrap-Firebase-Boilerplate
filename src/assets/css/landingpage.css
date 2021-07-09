@@ -1,0 +1,66 @@
+#landing-page-header {
+	height: 93vh;
+	width: 100%;
+	background-image: url("assets/img/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#landing-page-header-image {
+	width: auto;
+	height: 93vh;
+}
+
+#landing-page-header-title {
+	margin-bottom: 80px;
+}
+
+.centered-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#section1 {
+	height: 50vh;
+	width: 100%;
+	background-color: bisque;
+}
+
+#section2 {
+	height: 100vh;
+	width: 100%;
+	background-color: saddlebrown;
+}
+
+#section3 {
+	height: 50vh;
+	width: 100%;
+	background-color: lightblue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#landing-page-header {
+		background-size: cover;
+		/* background-attachment: fixed; */
+
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
